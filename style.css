@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: #fff;
+  }
+  
+  /* NAV */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+    background: #245a32;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 14px;
+  }
+  
+  /* HERO */
+  header {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  header img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+    filter: brightness(55%);
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 650px;
+  }
+  
+  .hero-text h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+  
+  /* BUTTON */
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  /* SECTIONS */
+  section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  
+  /* FLEX LAYOUT */
+  .flex {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* TEXT BLOCK */
+  .text {
+    flex: 1;
+  }
+  
+  .text p {
+    line-height: 1.7;
+    margin-bottom: 12px;
+  }
+  
+  /* IMAGES */
+  .flex img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  }
+  
+  /* HIGHLIGHT */
+  .highlight {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #2f6b3b;
+  }
+  
+  /* CONTACT */
+  #contact {
+    text-align: center;
+  }
+  
+  .socials {
+    margin-top: 20px;
+  }
+  
+  .socials a {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.2s ease;
+  }
+  
+  /* Instagram style */
+  .socials a[href*="instagram"] {
+    background: #E1306C;
+    color: white;
+  }
+  
+  /* TikTok style */
+  .socials a[href*="tiktok"] {
+    background: #000;
+    color: white;
+  }
+  
+  .socials a:hover {
+    transform: scale(1.05);
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 25px;
+    background: #222;
+    color: white;
+    font-size: 14px;
+  }
